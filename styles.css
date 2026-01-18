@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.inter{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+
+body {
+  
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin:0px auto;
+  background: #1A0B2E;
+  color: white;
+  align-items: center;
+  padding-left: 12.5%;
+  padding-right: 12.5%;
+
+}
+
+nav .logo h1{
+  font-size: 40px;
+  padding-top: 30px;
+  padding-bottom:30px;
+  font-weight: bolder;
+}
+
+nav .logo h1 span{
+   background: linear-gradient(10deg, #F7E93F ,#FB09B4 ,#9100F8 );
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+}
+nav .menu{
+  display: flex;
+  list-style: none;
+  font-size: 16px;
+  cursor: pointer;
+  gap: 32px;
+  align-items: center;
+}
+
+nav .menu li a{
+  text-decoration: none;
+  color: white;
+  
+}
+
+
+.hamburger-menu {
+  display: none;
+}
+
+nav .button{
+    list-style: none;
+}
+
+nav .button .gradientBtn{
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.gradientBtn {
+  background: linear-gradient(20deg, #F7E93F 15% ,#FB09B4 50%,#9100F8 100%);
+  border: none;
+  color: white;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 14px;
+}
