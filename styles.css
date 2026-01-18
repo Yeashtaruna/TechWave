@@ -75,5 +75,84 @@ nav .button .gradientBtn{
   color: white;
   border-radius: 25px;
   cursor: pointer;
-  font-size: 14px;
+  font-size: 16px;
+}
+
+.hero{
+    background-image: url('./images/hero-bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-top: 0.2px solid #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.hero .hero-content{
+   margin-top: 101px;
+  
+}
+.hero .outer-image{
+    background-image: url('./images/hero-circle.png');
+    aspect-ratio: 1 / 1;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: grid;
+    place-items: center;
+    width: 80%;
+    justify-self:center;
+    text-align: center;
+}
+
+.badge {
+  position: absolute;
+  top: 30px;
+  right: 20px;
+  padding: 8px 16px;
+  font-size: 18px;
+  font-weight: 600;
+  background: #00FF88;
+  color: black;
+  border-radius: 1000px;
+  box-shadow: 0px 3px 27px 0px rgba(0, 255, 136, 0.5);
+}
+.hero .hero-text{
+    margin-top: 40px;
+}
+
+.hero .hero-text h1{
+    font-size: 60px;
+    font-weight: 700;
+    color: white;
+}
+.hero .hero-text p{
+    margin-top: 16px;
+    color: white;
+}
+.hero .hero-buttons{
+    margin-top: 24px;
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 101px;
+}
+.hero .hero-buttons .gradientBtn{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 12.5px;
+    padding-bottom: 12.5px;
+}
+.hero .hero-buttons .btn{
+    border: 1px solid #00FF88;
+    color: #00FF88;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 12.5px;
+    padding-bottom: 12.5px;
 }
