@@ -9,7 +9,9 @@
 }
 
 body {
-  
+  max-width: 1600px;
+  margin: 0px auto;
+  background: #1A0B2E;
 }
 
 nav {
@@ -79,32 +81,33 @@ nav .button .gradientBtn{
 }
 
 .hero{
-    background-image: url('./images/hero-bg.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    border-top: 0.2px solid #FFFFFF;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+  background-image: url('./images/hero-bg.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  max-width: 1600px;
+  border-top: 1px solid #412567;
 }
+
 .hero .hero-content{
-   margin-top: 101px;
-  
+  margin-top: 101px;
 }
 .hero .outer-image{
-    background-image: url('./images/hero-circle.png');
-    aspect-ratio: 1 / 1;
-    position: relative;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    display: grid;
-    place-items: center;
-    width: 80%;
-    justify-self:center;
-    text-align: center;
+  background-image: url('./images/hero-circle.png');
+  aspect-ratio: 1 / 1;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: grid;
+  place-items: center;
+  width: 65%;
+  justify-self:center;
+  text-align: center;
 }
 
 .badge {
@@ -120,39 +123,92 @@ nav .button .gradientBtn{
   box-shadow: 0px 3px 27px 0px rgba(0, 255, 136, 0.5);
 }
 .hero .hero-text{
-    margin-top: 40px;
+  margin-top: 40px;
 }
 
 .hero .hero-text h1{
-    font-size: 60px;
-    font-weight: 700;
-    color: white;
+  font-size: 60px;
+  font-weight: 700;
+  color: white;
 }
 .hero .hero-text p{
-    margin-top: 16px;
-    color: white;
+  margin-top: 16px;
+  color: white;
+  font-weight: lighter;
 }
 .hero .hero-buttons{
-    margin-top: 24px;
-    display: flex;
-    justify-content: center;
-    gap: 8px;
-    margin-bottom: 101px;
+  margin-top: 24px;
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-bottom: 101px;
 }
 .hero .hero-buttons .gradientBtn{
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 12.5px;
-    padding-bottom: 12.5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 12.5px;
+  padding-bottom: 12.5px;
 }
 .hero .hero-buttons .btn{
-    border: 1px solid #00FF88;
-    color: #00FF88;
-    border-radius: 25px;
-    cursor: pointer;
-    font-size: 16px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 12.5px;
-    padding-bottom: 12.5px;
+  border: 1px solid #00FF88;
+  color: #00FF88;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 16px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 12.5px;
+  padding-bottom: 12.5px;
 }
+
+.about{
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 50px 200px;
+  text-align: center;
+  background-color: #1A0B2E;
+}
+
+.about .about-text h2{
+  font-size: 36px;
+  font-weight: 700;
+  color: white;
+  margin-top: 50px;
+  margin-bottom: 16px;
+}
+
+.about .about-text p{
+  color: white;
+  font-size: 16px;
+  font-weight: lighter;
+  line-height: 20px;
+  opacity: 80%;
+  padding-bottom: 80px;
+  border-bottom: 1px solid #412567;
+}
+
+.about .about-cards{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 80px;
+  margin-top: 80px;
+}
+
+.about .about-cards h4{
+  color: #00FF88;
+  font-size: 48px;
+  font-weight: 900;
+  margin-bottom: 16px;
+}
+.about .about-cards p{
+  color: white;
+  font-size: 16px;
+  font-weight: lighter;
+}
+
+
+
+
+
+
+
