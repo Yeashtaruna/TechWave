@@ -277,6 +277,7 @@ nav .button .gradientBtn{
   background-color: #250D44;
   border-radius: 20px;
   margin-top: 40px;
+  max-width: 380px;
 }
 
 .featured-episodes .episode-card .text{
@@ -352,4 +353,50 @@ nav .button .gradientBtn{
 .host .host-content .host-text .buttons a img{
   width: 16px;
   height: 16px;
+}
+
+footer{
+  background-image: url(./images/footer-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 120px;
+}
+
+footer .footer-content{
+  text-align: center;
+}
+footer .footer-content .footer-links{
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  margin-top: 18px;
+  margin-bottom: 32px;
+}
+footer .footer-content .footer-links a{
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  font-weight: lighter;
+}
+footer .footer-content h1{
+  font-size: 52px;
+  font-weight: bolder;
+  color: white;
+  margin-bottom: 0px;
+}
+
+footer .footer-content h1 span{
+  background: linear-gradient(10deg, #F7E93F ,#FB09B4 ,#9100F8 );
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+footer .footer-bottom{
+  margin-top: 32px;
+  color: white;
+  font-size: 14px;
+  font-weight: lighter;
 }
