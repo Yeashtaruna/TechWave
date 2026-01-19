@@ -183,7 +183,6 @@ nav .button .gradientBtn{
   font-size: 16px;
   font-weight: lighter;
   line-height: 20px;
-  opacity: 80%;
   padding-bottom: 80px;
   border-bottom: 1px solid #412567;
 }
@@ -205,6 +204,7 @@ nav .button .gradientBtn{
   color: white;
   font-size: 16px;
   font-weight: lighter;
+  text-align: center;
 }
 .features{
   max-width: 1600px;
@@ -253,6 +253,103 @@ nav .button .gradientBtn{
 }
 
 
+.featured-episodes{
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 120px 200px;
+  background-color: #1A0B2E;
+}
 
+.featured-episodes h2{
+  color: white;
+  font-size: 48px;
+  font-weight: bold;
+  text-align: center;
+}
 
+.episodes-grid{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
 
+.featured-episodes .episode-card{
+  background-color: #250D44;
+  border-radius: 20px;
+  margin-top: 40px;
+}
+
+.featured-episodes .episode-card .text{
+  padding: 24px;
+  color: white;
+  text-align: left;
+}
+.featured-episodes .episode-card .text h4{
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+.featured-episodes .episode-card .text p{
+  font-size: 16px;
+  font-weight: lighter;
+  margin-top: 12px;
+}
+
+.featured-episodes .episode-card iframe{
+  height: 214px;
+}
+
+.featured-episodes .green-text{
+  color: #00FF88;
+}
+
+.host{
+  margin-top: 120px;
+}
+
+.host h2{
+  color: white;
+  font-size: 48px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.host .host-content{
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  gap: 24px;
+  background-color: #230E3D;
+  border-radius: 16px;
+  padding: 40px;
+}
+.host .host-content img{
+  width: 100%;
+}
+.host .host-content .host-text{
+  color: white;
+  text-align: left;
+  margin-top: 8.5px;
+  font-weight: lighter;
+}
+
+.host .host-content .host-text h3{
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.host .host-content .host-text .buttons{
+  margin-top: 24px;
+  display: flex;
+  gap: 8px;
+}
+.host .host-content .host-text .buttons a{
+  border: 1px solid #533C72;
+  border-radius: 50%;
+  padding: 10px;
+}
+.host .host-content .host-text .buttons a img{
+  width: 16px;
+  height: 16px;
+}
