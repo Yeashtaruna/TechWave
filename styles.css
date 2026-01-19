@@ -255,13 +255,13 @@ nav .button .gradientBtn{
   padding-bottom: 40px;
 }
 
-
 .featured-episodes{
   max-width: 1600px;
   margin: 0 auto;
   padding: 120px 200px;
   background-color: #1A0B2E;
 }
+
 
 .featured-episodes h2{
   color: white;
@@ -274,13 +274,13 @@ nav .button .gradientBtn{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 30px;
+  margin-top: 40px;
 }
 
 .featured-episodes .episode-card{
   background-color: #250D44;
   border-radius: 20px;
-  margin-top: 40px;
-  max-width: 380px;
+  max-height: 440px;
 }
 
 .featured-episodes .episode-card .text{
@@ -429,7 +429,6 @@ footer .footer-bottom{
     padding-right: 20px;
     padding-top: 16px;
     padding-bottom: 16px;
-    max-width: 440px;
   }
   nav .logo h1 {
     font-size: 24px;
@@ -474,12 +473,7 @@ footer .footer-bottom{
   .hero .hero-buttons{
     margin-bottom: 40px;
   }
-  /* .hero .hero-buttons .gradientBtn{ 
-    padding: 8px 12px;
-  }
-  .hero .hero-buttons .btn{
-    padding: 8px 12px;
-  }*/
+ 
   .about{
     padding-left: 20px;
     padding-right: 20px;
@@ -490,10 +484,86 @@ footer .footer-bottom{
     margin-bottom: 16px;
   }
   .about .about-cards{
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr; /* Creating two columns for on Small screens */
     gap: 40px;
   }
+  .features{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .features h2{
+    font-size: 32px;
+  }
+  .features .features-grid{
+    grid-template-columns: 1fr;/* Creating One columns on Small screens */
+    gap: 16px;
+  }
+  .tall-card {
+    grid-row: auto;
+    padding-top: 40px;
+  }
+  .fat-card {
+    grid-column: auto;
+  }
 
+  .featured-episodes{
+    padding-left: 20px; /* did the  margin */
+    padding-right: 20px;
+    padding-top: 40px;
+    max-width: 100%;
+  }
+
+ 
+  .featured-episodes h2{
+    font-size: 32px;
+  }
+  .episodes-grid{
+    grid-template-columns: 1fr; /* Creating One columns on Small screens */
+    gap: 16px;
+    justify-items: center;
+  }
+  .episode-card{
+    max-width: 100%;
+    width: 100%;
+  }
+  .host{
+    margin-top: 40px;
+  }
+  .host h2{
+    font-size: 32px;
+  }
+  .host .host-content{
+    grid-template-columns: 1fr; /* one column layout on Small screens */
+  }
+  .host .host-content img{
+    width: 50%;
+    margin: 0 auto;
+  }
+  .host .host-content .host-text{
+    text-align: center;
+    margin-top: 16px;
+  }
+  .host .host-content .buttons {
+    justify-content: center;
+  }
+  footer {
+    padding: 40px 20px;
+    margin-top: -40px;
+  }
+  footer .footer-content h1 {
+    font-size: 44px;
+  }
+  footer .footer-content .footer-links {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    grid-gap: 16px;
+    margin-left: 72.5px;
+    margin-right: 72.5px;
+  }
 }
 
 /* Large devices (992px and above) */
@@ -505,3 +575,5 @@ footer .footer-bottom{
   }
 }
 
+
+/* there are small margin rlated issues , need to fix them in mornirng*/
