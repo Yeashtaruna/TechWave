@@ -471,6 +471,28 @@ footer .footer-bottom{
     margin-top: 8px;
     margin-bottom: 24px;
   }
+  .hero .hero-buttons{
+    margin-bottom: 40px;
+  }
+  /* .hero .hero-buttons .gradientBtn{ 
+    padding: 8px 12px;
+  }
+  .hero .hero-buttons .btn{
+    padding: 8px 12px;
+  }*/
+  .about{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .about .about-text h2{
+    font-size: 32px;
+    margin-bottom: 16px;
+  }
+  .about .about-cards{
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+  }
 
 }
 
