@@ -6,9 +6,11 @@
 .inter{
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
+  background: #1A0B2E;
 }
 
-body {
+
+.container {
   max-width: 1600px;
   margin: 0px auto;
   background: #1A0B2E;
@@ -24,6 +26,7 @@ nav {
   align-items: center;
   padding-left: 12.5%;
   padding-right: 12.5%;
+  border-bottom: 1px solid #412567;
 
 }
 
@@ -90,7 +93,7 @@ nav .button .gradientBtn{
   align-items: center;
   text-align: center;
   max-width: 1600px;
-  border-top: 1px solid #412567;
+  
 }
 
 .hero .hero-content{
@@ -400,3 +403,83 @@ footer .footer-bottom{
   font-size: 14px;
   font-weight: lighter;
 }
+
+/* Small devices (up to 576px) */
+@media (max-width: 576px) {
+  
+  .hamburger-menu {
+    display: block;
+    max-width: 24px;
+    max-width: 24px;
+  }
+  nav .menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    flex-direction: column;
+  }
+  nav .button {
+    display: none;
+  }
+  nav {
+    max-height: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    max-width: 440px;
+  }
+  nav .logo h1 {
+    font-size: 24px;
+  }
+  .hero {
+    background-size: contain;
+    background-position: top center;
+    padding: 0 16px;
+    max-width: 100%;
+    align-items: flex-start;   
+    margin-top: 40px;
+  }
+
+  .hero .hero-content {
+    margin-top: 0;
+  }
+
+  /* Circle / Mic Container */
+  .hero .outer-image {
+    width: 45%;
+    max-width: 200px;
+    margin: 0 auto;
+  }
+
+  /* NEW Badge */
+  .badge {
+    top: 14px;
+    right: 14px;
+    padding: 4px 10px;
+    font-size: 11px;
+    font-weight: 700;
+  }
+
+  .hero .hero-text h1 {
+    font-size: 40px;
+    margin-top: 24px;
+  }
+  .hero .hero-text p {
+    margin-top: 8px;
+    margin-bottom: 24px;
+  }
+
+}
+
+/* Large devices (992px and above) */
+@media (min-width: 992px) {
+  
+  .container {
+    max-width: 1600px;
+    margin: 0 auto;   /* center the layout */
+  }
+}
+
