@@ -46,7 +46,7 @@ nav .logo h1 span{
 nav .menu{
   display: flex;
   list-style: none;
-  font-size: 16px;
+  font-size: 1rem;
   cursor: pointer;
   gap: 32px;
   align-items: center;
@@ -80,7 +80,7 @@ nav .button .gradientBtn{
   color: white;
   border-radius: 25px;
   cursor: pointer;
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .hero{
@@ -406,7 +406,10 @@ footer .footer-bottom{
 
 /* Small devices (up to 576px) */
 @media (max-width: 576px) {
-  
+  .container{
+    max-width: 576px;
+    font-size: 3.8vw;
+  }
   .hamburger-menu {
     display: block;
     max-width: 24px;
@@ -430,9 +433,11 @@ footer .footer-bottom{
     padding-top: 16px;
     padding-bottom: 16px;
   }
-  nav .logo h1 {
-    font-size: 24px;
-  }
+
+  nav .logo h1 { 
+   font-size: 24px;
+  } 
+
   .hero {
     background-size: contain;
     background-position: top center;
@@ -471,9 +476,18 @@ footer .footer-bottom{
     margin-bottom: 24px;
   }
   .hero .hero-buttons{
-    margin-bottom: 40px;
+    margin-bottom: 9.09vw;
   }
  
+  .hero .hero-buttons .gradientBtn{
+    font-size: 3vw;
+    white-space: nowrap;
+  }
+ 
+  .hero .hero-buttons .btn{
+    font-size: 3vw;
+    white-space: nowrap;
+  }
   .about{
     padding-left: 20px;
     padding-right: 20px;
@@ -514,7 +528,6 @@ footer .footer-bottom{
     padding-top: 40px;
     max-width: 100%;
   }
-
  
   .featured-episodes h2{
     font-size: 32px;
@@ -549,6 +562,7 @@ footer .footer-bottom{
     justify-content: center;
   }
   footer {
+    background-image: url('./images/Footer.png');
     padding: 40px 20px;
     margin-top: -40px;
   }
