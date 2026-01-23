@@ -434,7 +434,6 @@ footer .footer-bottom{
 @media (max-width: 576px) {
   .container{
     max-width: 576px;
-    font-size: 3.8vw;
   }
   .hamburger-menu {
     display: block;
@@ -600,15 +599,16 @@ footer .footer-bottom{
     grid-template-columns: 1fr 1fr;
     justify-items: center;
     align-items: center;
-    grid-gap: 16px;
-    margin-left: 72.5px;
-    margin-right: 72.5px;
+    grid-gap: 1vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    font-size: 3.2vw;
   }
 }
 
+
 /* Large devices (992px and above) */
 @media (min-width: 992px) {
-  
   .container {
     max-width: 1600px;
     margin: 0 auto;   
